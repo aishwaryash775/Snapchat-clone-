@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snapchat Sign Up</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <p>Already have a Snapchat account?</p>
+<a href="loginsnap.html" class="login-btn">Log In</a>
+    </div>
+      <form action="register" method="post">
+      <div class="form-box" >
+      <img src="snap.png" alt="Snapchat"  class="logo"/>
+      <h2>Sign Up</h2>
+      <p class="subtitle">to create your first ad</p>
+   
+        <div class="name-row">
+          <input type="text" name="firstName" placeholder="First Name" required>
+          <input type="text" name = "lastName"placeholder="Last Name" required>
+        </div>
+        <input type="text" name = "username" placeholder="Username" required>
+        <div class="password-row">
+          <input type="password" name = "password" placeholder="Password" required>
+          <span class="show-password">Show</span>
+        </div>
+        <input type="email"  name="email" placeholder="Email" required>
+        <div class="birthday-row">
+          <input type="text"  name="month" placeholder="Month" required>
+          <input type="text"  name="day"  placeholder="Day" required>
+          <input type="text"  name="year" placeholder="Year" required>
+        </div>
+        <p class="terms">
+          By tapping Sign Up & Accept, you acknowledge that you have read the 
+          <a href="#">Privacy Policy</a> and agree to the 
+          <a href="#">Terms of Service</a>. Snapchatters can always capture or save your messages, such as by taking a screenshot or using a camera. Be mindful of what you Snap!
+        </p>
+        <button class="signup-btn">Sign Up & Accept</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
