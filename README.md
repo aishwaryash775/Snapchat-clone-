@@ -26,13 +26,15 @@ snapchat-clone/
 
 ## 📷 Screenshots
 
-### 🟡 Dashboard UI
-![Dashboard Screenshot](dashboard.png)
+### 🟡 Dashboard UI  
+![Dashboard Screenshot](images/dashboard.png)
 
-### 🔵 Login Page
-![Login Screenshot](login.png)
-### 🔵signup Page
-![signup Screenshot](signup.png)
+### 🔵 Login Page  
+![Login Screenshot](images/login.png)
+
+### 🔵 Signup Page  
+![Signup Screenshot](images/signup.png) 
+
 ---
 
 ## 🚀 Getting Started
